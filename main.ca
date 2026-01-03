@@ -1,0 +1,62 @@
+topology MySystem {
+    // 1. Define Output Target
+    target docker_compose {
+        version = "3.9"
+        output_dir = "./build"
+    }
+
+    // 2. Define High-Level Policies
+    policy SecurityRules {
+        // Example: Databases must not be in public networks
+        deny node.type == "db" in network.public == true
+    }
+
+    // 3. Define Infrastructure
+    network public_zone {
+        // Property: Applies to all children unless overridden
+        public = true 
+        
+        node load_balancer {
+            type = server
+            image = "nginx:latest"
+            ports = [80, 443]
+        }
+
+        // Nested Network
+        network dmz {
+            node bastion {
+                type = server
+            }
+        }
+    }
+
+    network private_zone {
+        public = false // Default private
+
+        node api_service {
+            type = server
+            image = "my-api:v1"
+            env = {
+                DEBUG = false
+            }
+        }
+
+        node main_db {
+            type = db
+            image = "postgres:14"
+        }
+        
+        // Links define allowed traffic
+        // Linking from public load_balancer to private api
+        link load_balancer -> api_service {
+            proto = http
+            port = 8080
+        }
+
+        // Linking api to db
+        link api_service -> main_db {
+            proto = tcp
+            port = 5432
+        }
+    }
+}

@@ -1,0 +1,14 @@
+# PyCharm settings
+.idea/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
