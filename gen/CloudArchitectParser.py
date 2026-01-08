@@ -10,64 +10,78 @@ else:
 
 def serializedATN():
     return [
-        4,1,24,174,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,38,213,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
-        2,14,7,14,2,15,7,15,1,0,5,0,34,8,0,10,0,12,0,37,9,0,1,0,1,0,1,1,
-        1,1,1,1,1,1,5,1,45,8,1,10,1,12,1,48,9,1,1,1,1,1,1,2,1,2,1,2,1,2,
-        1,2,3,2,57,8,2,1,3,1,3,1,3,1,3,1,3,5,3,64,8,3,10,3,12,3,67,9,3,1,
-        3,1,3,1,4,1,4,1,4,1,4,5,4,75,8,4,10,4,12,4,78,9,4,1,4,1,4,1,5,1,
-        5,1,5,1,5,1,5,1,5,5,5,88,8,5,10,5,12,5,91,9,5,1,5,1,5,1,6,1,6,1,
-        6,1,6,5,6,99,8,6,10,6,12,6,102,9,6,1,6,1,6,1,7,1,7,1,7,1,8,1,8,1,
-        8,1,8,5,8,113,8,8,10,8,12,8,116,9,8,1,8,1,8,1,9,1,9,1,9,1,9,1,10,
-        1,10,1,10,1,10,1,10,3,10,129,8,10,1,10,1,10,1,10,1,10,5,10,135,8,
-        10,10,10,12,10,138,9,10,1,11,1,11,1,12,1,12,1,12,1,12,5,12,146,8,
-        12,10,12,12,12,149,9,12,3,12,151,8,12,1,12,1,12,1,13,1,13,5,13,157,
-        8,13,10,13,12,13,160,9,13,1,13,1,13,1,14,1,14,1,14,5,14,167,8,14,
-        10,14,12,14,170,9,14,1,15,1,15,1,15,0,1,20,16,0,2,4,6,8,10,12,14,
-        16,18,20,22,24,26,28,30,0,2,2,0,11,11,13,14,1,0,1,3,177,0,35,1,0,
-        0,0,2,40,1,0,0,0,4,56,1,0,0,0,6,58,1,0,0,0,8,70,1,0,0,0,10,81,1,
-        0,0,0,12,94,1,0,0,0,14,105,1,0,0,0,16,108,1,0,0,0,18,119,1,0,0,0,
-        20,128,1,0,0,0,22,139,1,0,0,0,24,141,1,0,0,0,26,154,1,0,0,0,28,163,
-        1,0,0,0,30,171,1,0,0,0,32,34,3,2,1,0,33,32,1,0,0,0,34,37,1,0,0,0,
-        35,33,1,0,0,0,35,36,1,0,0,0,36,38,1,0,0,0,37,35,1,0,0,0,38,39,5,
-        0,0,1,39,1,1,0,0,0,40,41,5,4,0,0,41,42,5,12,0,0,42,46,5,15,0,0,43,
-        45,3,4,2,0,44,43,1,0,0,0,45,48,1,0,0,0,46,44,1,0,0,0,46,47,1,0,0,
-        0,47,49,1,0,0,0,48,46,1,0,0,0,49,50,5,16,0,0,50,3,1,0,0,0,51,57,
-        3,6,3,0,52,57,3,8,4,0,53,57,3,10,5,0,54,57,3,12,6,0,55,57,3,16,8,
-        0,56,51,1,0,0,0,56,52,1,0,0,0,56,53,1,0,0,0,56,54,1,0,0,0,56,55,
-        1,0,0,0,57,5,1,0,0,0,58,59,5,5,0,0,59,60,5,12,0,0,60,65,5,15,0,0,
-        61,64,3,18,9,0,62,64,3,4,2,0,63,61,1,0,0,0,63,62,1,0,0,0,64,67,1,
-        0,0,0,65,63,1,0,0,0,65,66,1,0,0,0,66,68,1,0,0,0,67,65,1,0,0,0,68,
-        69,5,16,0,0,69,7,1,0,0,0,70,71,5,6,0,0,71,72,5,12,0,0,72,76,5,15,
-        0,0,73,75,3,18,9,0,74,73,1,0,0,0,75,78,1,0,0,0,76,74,1,0,0,0,76,
-        77,1,0,0,0,77,79,1,0,0,0,78,76,1,0,0,0,79,80,5,16,0,0,80,9,1,0,0,
-        0,81,82,5,7,0,0,82,83,3,28,14,0,83,84,5,20,0,0,84,85,3,28,14,0,85,
-        89,5,15,0,0,86,88,3,18,9,0,87,86,1,0,0,0,88,91,1,0,0,0,89,87,1,0,
-        0,0,89,90,1,0,0,0,90,92,1,0,0,0,91,89,1,0,0,0,92,93,5,16,0,0,93,
-        11,1,0,0,0,94,95,5,8,0,0,95,96,5,12,0,0,96,100,5,15,0,0,97,99,3,
-        14,7,0,98,97,1,0,0,0,99,102,1,0,0,0,100,98,1,0,0,0,100,101,1,0,0,
-        0,101,103,1,0,0,0,102,100,1,0,0,0,103,104,5,16,0,0,104,13,1,0,0,
-        0,105,106,5,10,0,0,106,107,3,20,10,0,107,15,1,0,0,0,108,109,5,9,
-        0,0,109,110,5,12,0,0,110,114,5,15,0,0,111,113,3,18,9,0,112,111,1,
-        0,0,0,113,116,1,0,0,0,114,112,1,0,0,0,114,115,1,0,0,0,115,117,1,
-        0,0,0,116,114,1,0,0,0,117,118,5,16,0,0,118,17,1,0,0,0,119,120,5,
-        12,0,0,120,121,5,19,0,0,121,122,3,20,10,0,122,19,1,0,0,0,123,124,
-        6,10,-1,0,124,129,3,22,11,0,125,129,3,24,12,0,126,129,3,26,13,0,
-        127,129,3,28,14,0,128,123,1,0,0,0,128,125,1,0,0,0,128,126,1,0,0,
-        0,128,127,1,0,0,0,129,136,1,0,0,0,130,131,10,1,0,0,131,132,3,30,
-        15,0,132,133,3,20,10,2,133,135,1,0,0,0,134,130,1,0,0,0,135,138,1,
-        0,0,0,136,134,1,0,0,0,136,137,1,0,0,0,137,21,1,0,0,0,138,136,1,0,
-        0,0,139,140,7,0,0,0,140,23,1,0,0,0,141,150,5,17,0,0,142,147,3,20,
-        10,0,143,144,5,22,0,0,144,146,3,20,10,0,145,143,1,0,0,0,146,149,
-        1,0,0,0,147,145,1,0,0,0,147,148,1,0,0,0,148,151,1,0,0,0,149,147,
-        1,0,0,0,150,142,1,0,0,0,150,151,1,0,0,0,151,152,1,0,0,0,152,153,
-        5,18,0,0,153,25,1,0,0,0,154,158,5,15,0,0,155,157,3,18,9,0,156,155,
-        1,0,0,0,157,160,1,0,0,0,158,156,1,0,0,0,158,159,1,0,0,0,159,161,
-        1,0,0,0,160,158,1,0,0,0,161,162,5,16,0,0,162,27,1,0,0,0,163,168,
-        5,12,0,0,164,165,5,21,0,0,165,167,5,12,0,0,166,164,1,0,0,0,167,170,
-        1,0,0,0,168,166,1,0,0,0,168,169,1,0,0,0,169,29,1,0,0,0,170,168,1,
-        0,0,0,171,172,7,1,0,0,172,31,1,0,0,0,15,35,46,56,63,65,76,89,100,
-        114,128,136,147,150,158,168
+        2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,2,18,7,18,2,19,7,19,2,20,
+        7,20,1,0,5,0,44,8,0,10,0,12,0,47,9,0,1,0,1,0,1,1,1,1,1,1,1,1,5,1,
+        55,8,1,10,1,12,1,58,9,1,1,1,1,1,1,2,1,2,1,2,1,2,1,2,3,2,67,8,2,1,
+        3,1,3,1,3,1,3,1,3,5,3,74,8,3,10,3,12,3,77,9,3,1,3,1,3,1,4,1,4,1,
+        4,1,4,5,4,85,8,4,10,4,12,4,88,9,4,1,4,1,4,1,5,1,5,1,5,1,5,1,5,1,
+        5,5,5,98,8,5,10,5,12,5,101,9,5,1,5,1,5,1,6,1,6,1,6,1,6,5,6,109,8,
+        6,10,6,12,6,112,9,6,1,6,1,6,1,7,1,7,1,7,1,7,3,7,120,8,7,1,7,1,7,
+        3,7,124,8,7,1,7,1,7,1,8,1,8,1,8,1,8,3,8,132,8,8,1,9,1,9,1,9,1,10,
+        1,10,1,10,1,11,1,11,1,12,1,12,1,12,1,12,5,12,146,8,12,10,12,12,12,
+        149,9,12,1,12,1,12,1,13,1,13,1,13,1,13,1,14,1,14,1,14,1,14,1,14,
+        1,14,1,14,1,14,1,14,3,14,166,8,14,1,14,1,14,1,14,1,14,5,14,172,8,
+        14,10,14,12,14,175,9,14,1,15,1,15,1,16,1,16,1,16,1,16,5,16,183,8,
+        16,10,16,12,16,186,9,16,3,16,188,8,16,1,16,1,16,1,17,1,17,5,17,194,
+        8,17,10,17,12,17,197,9,17,1,17,1,17,1,18,1,18,1,18,5,18,204,8,18,
+        10,18,12,18,207,9,18,1,19,1,19,1,20,1,20,1,20,0,1,28,21,0,2,4,6,
+        8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,0,4,1,0,7,8,2,
+        0,14,14,16,17,2,0,2,12,15,15,2,0,13,13,28,35,215,0,45,1,0,0,0,2,
+        50,1,0,0,0,4,66,1,0,0,0,6,68,1,0,0,0,8,80,1,0,0,0,10,91,1,0,0,0,
+        12,104,1,0,0,0,14,115,1,0,0,0,16,127,1,0,0,0,18,133,1,0,0,0,20,136,
+        1,0,0,0,22,139,1,0,0,0,24,141,1,0,0,0,26,152,1,0,0,0,28,165,1,0,
+        0,0,30,176,1,0,0,0,32,178,1,0,0,0,34,191,1,0,0,0,36,200,1,0,0,0,
+        38,208,1,0,0,0,40,210,1,0,0,0,42,44,3,2,1,0,43,42,1,0,0,0,44,47,
+        1,0,0,0,45,43,1,0,0,0,45,46,1,0,0,0,46,48,1,0,0,0,47,45,1,0,0,0,
+        48,49,5,0,0,1,49,1,1,0,0,0,50,51,5,1,0,0,51,52,5,15,0,0,52,56,5,
+        18,0,0,53,55,3,4,2,0,54,53,1,0,0,0,55,58,1,0,0,0,56,54,1,0,0,0,56,
+        57,1,0,0,0,57,59,1,0,0,0,58,56,1,0,0,0,59,60,5,19,0,0,60,3,1,0,0,
+        0,61,67,3,6,3,0,62,67,3,8,4,0,63,67,3,10,5,0,64,67,3,12,6,0,65,67,
+        3,24,12,0,66,61,1,0,0,0,66,62,1,0,0,0,66,63,1,0,0,0,66,64,1,0,0,
+        0,66,65,1,0,0,0,67,5,1,0,0,0,68,69,5,2,0,0,69,70,5,15,0,0,70,75,
+        5,18,0,0,71,74,3,26,13,0,72,74,3,4,2,0,73,71,1,0,0,0,73,72,1,0,0,
+        0,74,77,1,0,0,0,75,73,1,0,0,0,75,76,1,0,0,0,76,78,1,0,0,0,77,75,
+        1,0,0,0,78,79,5,19,0,0,79,7,1,0,0,0,80,81,5,3,0,0,81,82,5,15,0,0,
+        82,86,5,18,0,0,83,85,3,26,13,0,84,83,1,0,0,0,85,88,1,0,0,0,86,84,
+        1,0,0,0,86,87,1,0,0,0,87,89,1,0,0,0,88,86,1,0,0,0,89,90,5,19,0,0,
+        90,9,1,0,0,0,91,92,5,4,0,0,92,93,3,36,18,0,93,94,5,25,0,0,94,95,
+        3,36,18,0,95,99,5,18,0,0,96,98,3,26,13,0,97,96,1,0,0,0,98,101,1,
+        0,0,0,99,97,1,0,0,0,99,100,1,0,0,0,100,102,1,0,0,0,101,99,1,0,0,
+        0,102,103,5,19,0,0,103,11,1,0,0,0,104,105,5,5,0,0,105,106,5,15,0,
+        0,106,110,5,18,0,0,107,109,3,14,7,0,108,107,1,0,0,0,109,112,1,0,
+        0,0,110,108,1,0,0,0,110,111,1,0,0,0,111,113,1,0,0,0,112,110,1,0,
+        0,0,113,114,5,19,0,0,114,13,1,0,0,0,115,116,3,22,11,0,116,117,5,
+        17,0,0,117,119,5,18,0,0,118,120,3,16,8,0,119,118,1,0,0,0,119,120,
+        1,0,0,0,120,121,1,0,0,0,121,123,3,18,9,0,122,124,3,20,10,0,123,122,
+        1,0,0,0,123,124,1,0,0,0,124,125,1,0,0,0,125,126,5,19,0,0,126,15,
+        1,0,0,0,127,128,5,9,0,0,128,131,3,38,19,0,129,130,5,10,0,0,130,132,
+        3,28,14,0,131,129,1,0,0,0,131,132,1,0,0,0,132,17,1,0,0,0,133,134,
+        5,11,0,0,134,135,3,28,14,0,135,19,1,0,0,0,136,137,5,12,0,0,137,138,
+        5,17,0,0,138,21,1,0,0,0,139,140,7,0,0,0,140,23,1,0,0,0,141,142,5,
+        6,0,0,142,143,5,15,0,0,143,147,5,18,0,0,144,146,3,26,13,0,145,144,
+        1,0,0,0,146,149,1,0,0,0,147,145,1,0,0,0,147,148,1,0,0,0,148,150,
+        1,0,0,0,149,147,1,0,0,0,150,151,5,19,0,0,151,25,1,0,0,0,152,153,
+        3,38,19,0,153,154,5,24,0,0,154,155,3,28,14,0,155,27,1,0,0,0,156,
+        157,6,14,-1,0,157,166,3,30,15,0,158,166,3,32,16,0,159,166,3,34,17,
+        0,160,166,3,36,18,0,161,162,5,22,0,0,162,163,3,28,14,0,163,164,5,
+        23,0,0,164,166,1,0,0,0,165,156,1,0,0,0,165,158,1,0,0,0,165,159,1,
+        0,0,0,165,160,1,0,0,0,165,161,1,0,0,0,166,173,1,0,0,0,167,168,10,
+        2,0,0,168,169,3,40,20,0,169,170,3,28,14,3,170,172,1,0,0,0,171,167,
+        1,0,0,0,172,175,1,0,0,0,173,171,1,0,0,0,173,174,1,0,0,0,174,29,1,
+        0,0,0,175,173,1,0,0,0,176,177,7,1,0,0,177,31,1,0,0,0,178,187,5,20,
+        0,0,179,184,3,28,14,0,180,181,5,27,0,0,181,183,3,28,14,0,182,180,
+        1,0,0,0,183,186,1,0,0,0,184,182,1,0,0,0,184,185,1,0,0,0,185,188,
+        1,0,0,0,186,184,1,0,0,0,187,179,1,0,0,0,187,188,1,0,0,0,188,189,
+        1,0,0,0,189,190,5,21,0,0,190,33,1,0,0,0,191,195,5,18,0,0,192,194,
+        3,26,13,0,193,192,1,0,0,0,194,197,1,0,0,0,195,193,1,0,0,0,195,196,
+        1,0,0,0,196,198,1,0,0,0,197,195,1,0,0,0,198,199,5,19,0,0,199,35,
+        1,0,0,0,200,205,3,38,19,0,201,202,5,26,0,0,202,204,3,38,19,0,203,
+        201,1,0,0,0,204,207,1,0,0,0,205,203,1,0,0,0,205,206,1,0,0,0,206,
+        37,1,0,0,0,207,205,1,0,0,0,208,209,7,2,0,0,209,39,1,0,0,0,210,211,
+        7,3,0,0,211,41,1,0,0,0,18,45,56,66,73,75,86,99,110,119,123,131,147,
+        165,173,184,187,195,205
     ]
 
 class CloudArchitectParser ( Parser ):
@@ -80,16 +94,21 @@ class CloudArchitectParser ( Parser ):
 
     sharedContextCache = PredictionContextCache()
 
-    literalNames = [ "<INVALID>", "'=='", "'!='", "'in'", "'topology'", 
-                     "'network'", "'node'", "'link'", "'policy'", "'target'", 
-                     "'deny'", "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                     "'{'", "'}'", "'['", "']'", "'='", "'->'", "'.'", "','" ]
+    literalNames = [ "<INVALID>", "'topology'", "'network'", "'node'", "'link'", 
+                     "'policy'", "'target'", "'deny'", "'warn'", "'from'", 
+                     "'where'", "'ensure'", "'message'", "'in'", "<INVALID>", 
+                     "<INVALID>", "<INVALID>", "<INVALID>", "'{'", "'}'", 
+                     "'['", "']'", "'('", "')'", "'='", "'->'", "'.'", "','", 
+                     "'=='", "'!='", "'>'", "'<'", "'>='", "'<='", "'&&'", 
+                     "'||'" ]
 
-    symbolicNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "TOPOLOGY", "NETWORK", "NODE", "LINK", "POLICY", "TARGET", 
-                      "DENY", "BOOL", "ID", "INT", "STRING", "LBRACE", "RBRACE", 
-                      "LBRACKET", "RBRACKET", "EQUALS", "ARROW", "DOT", 
-                      "COMMA", "WS", "COMMENT" ]
+    symbolicNames = [ "<INVALID>", "TOPOLOGY", "NETWORK", "NODE", "LINK", 
+                      "POLICY", "TARGET", "DENY", "WARN", "FROM", "WHERE", 
+                      "ENSURE", "MESSAGE", "IN", "BOOL", "ID", "INT", "STRING", 
+                      "LBRACE", "RBRACE", "LBRACKET", "RBRACKET", "LPAREN", 
+                      "RPAREN", "EQUALS", "ARROW", "DOT", "COMMA", "EQ", 
+                      "NEQ", "GT", "LT", "GTE", "LTE", "AND", "OR", "WS", 
+                      "COMMENT", "BLOCK_COMMENT" ]
 
     RULE_program = 0
     RULE_topology = 1
@@ -99,45 +118,65 @@ class CloudArchitectParser ( Parser ):
     RULE_linkDecl = 5
     RULE_policyDecl = 6
     RULE_policyRule = 7
-    RULE_targetDecl = 8
-    RULE_property = 9
-    RULE_expr = 10
-    RULE_literal = 11
-    RULE_list = 12
-    RULE_object = 13
-    RULE_qualifiedName = 14
-    RULE_binaryOp = 15
+    RULE_selectorClause = 8
+    RULE_checkClause = 9
+    RULE_messageClause = 10
+    RULE_severity = 11
+    RULE_targetDecl = 12
+    RULE_property = 13
+    RULE_expr = 14
+    RULE_literal = 15
+    RULE_list = 16
+    RULE_object = 17
+    RULE_qualifiedName = 18
+    RULE_validId = 19
+    RULE_binaryOp = 20
 
     ruleNames =  [ "program", "topology", "statement", "networkDecl", "nodeDecl", 
-                   "linkDecl", "policyDecl", "policyRule", "targetDecl", 
+                   "linkDecl", "policyDecl", "policyRule", "selectorClause", 
+                   "checkClause", "messageClause", "severity", "targetDecl", 
                    "property", "expr", "literal", "list", "object", "qualifiedName", 
-                   "binaryOp" ]
+                   "validId", "binaryOp" ]
 
     EOF = Token.EOF
-    T__0=1
-    T__1=2
-    T__2=3
-    TOPOLOGY=4
-    NETWORK=5
-    NODE=6
-    LINK=7
-    POLICY=8
-    TARGET=9
-    DENY=10
-    BOOL=11
-    ID=12
-    INT=13
-    STRING=14
-    LBRACE=15
-    RBRACE=16
-    LBRACKET=17
-    RBRACKET=18
-    EQUALS=19
-    ARROW=20
-    DOT=21
-    COMMA=22
-    WS=23
-    COMMENT=24
+    TOPOLOGY=1
+    NETWORK=2
+    NODE=3
+    LINK=4
+    POLICY=5
+    TARGET=6
+    DENY=7
+    WARN=8
+    FROM=9
+    WHERE=10
+    ENSURE=11
+    MESSAGE=12
+    IN=13
+    BOOL=14
+    ID=15
+    INT=16
+    STRING=17
+    LBRACE=18
+    RBRACE=19
+    LBRACKET=20
+    RBRACKET=21
+    LPAREN=22
+    RPAREN=23
+    EQUALS=24
+    ARROW=25
+    DOT=26
+    COMMA=27
+    EQ=28
+    NEQ=29
+    GT=30
+    LT=31
+    GTE=32
+    LTE=33
+    AND=34
+    OR=35
+    WS=36
+    COMMENT=37
+    BLOCK_COMMENT=38
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -192,17 +231,17 @@ class CloudArchitectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 35
+            self.state = 45
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==4:
-                self.state = 32
+            while _la==1:
+                self.state = 42
                 self.topology()
-                self.state = 37
+                self.state = 47
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 38
+            self.state = 48
             self.match(CloudArchitectParser.EOF)
         except RecognitionException as re:
             localctx.exception = re
@@ -266,23 +305,23 @@ class CloudArchitectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 40
+            self.state = 50
             self.match(CloudArchitectParser.TOPOLOGY)
-            self.state = 41
+            self.state = 51
             self.match(CloudArchitectParser.ID)
-            self.state = 42
+            self.state = 52
             self.match(CloudArchitectParser.LBRACE)
-            self.state = 46
+            self.state = 56
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 992) != 0):
-                self.state = 43
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 124) != 0):
+                self.state = 53
                 self.statement()
-                self.state = 48
+                self.state = 58
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 49
+            self.state = 59
             self.match(CloudArchitectParser.RBRACE)
         except RecognitionException as re:
             localctx.exception = re
@@ -345,32 +384,32 @@ class CloudArchitectParser ( Parser ):
         localctx = CloudArchitectParser.StatementContext(self, self._ctx, self.state)
         self.enterRule(localctx, 4, self.RULE_statement)
         try:
-            self.state = 56
+            self.state = 66
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [5]:
+            if token in [2]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 51
+                self.state = 61
                 self.networkDecl()
                 pass
-            elif token in [6]:
+            elif token in [3]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 52
+                self.state = 62
                 self.nodeDecl()
                 pass
-            elif token in [7]:
+            elif token in [4]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 53
+                self.state = 63
                 self.linkDecl()
                 pass
-            elif token in [8]:
+            elif token in [5]:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 54
+                self.state = 64
                 self.policyDecl()
                 pass
-            elif token in [9]:
+            elif token in [6]:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 55
+                self.state = 65
                 self.targetDecl()
                 pass
             else:
@@ -445,35 +484,35 @@ class CloudArchitectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 58
+            self.state = 68
             self.match(CloudArchitectParser.NETWORK)
-            self.state = 59
+            self.state = 69
             self.match(CloudArchitectParser.ID)
-            self.state = 60
+            self.state = 70
             self.match(CloudArchitectParser.LBRACE)
-            self.state = 65
+            self.state = 75
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 5088) != 0):
-                self.state = 63
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 40956) != 0):
+                self.state = 73
                 self._errHandler.sync(self)
-                token = self._input.LA(1)
-                if token in [12]:
-                    self.state = 61
+                la_ = self._interp.adaptivePredict(self._input,3,self._ctx)
+                if la_ == 1:
+                    self.state = 71
                     self.property_()
                     pass
-                elif token in [5, 6, 7, 8, 9]:
-                    self.state = 62
+
+                elif la_ == 2:
+                    self.state = 72
                     self.statement()
                     pass
-                else:
-                    raise NoViableAltException(self)
 
-                self.state = 67
+
+                self.state = 77
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 68
+            self.state = 78
             self.match(CloudArchitectParser.RBRACE)
         except RecognitionException as re:
             localctx.exception = re
@@ -537,23 +576,23 @@ class CloudArchitectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 70
+            self.state = 80
             self.match(CloudArchitectParser.NODE)
-            self.state = 71
+            self.state = 81
             self.match(CloudArchitectParser.ID)
-            self.state = 72
+            self.state = 82
             self.match(CloudArchitectParser.LBRACE)
-            self.state = 76
+            self.state = 86
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==12:
-                self.state = 73
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 40956) != 0):
+                self.state = 83
                 self.property_()
-                self.state = 78
+                self.state = 88
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 79
+            self.state = 89
             self.match(CloudArchitectParser.RBRACE)
         except RecognitionException as re:
             localctx.exception = re
@@ -624,27 +663,27 @@ class CloudArchitectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 81
+            self.state = 91
             self.match(CloudArchitectParser.LINK)
-            self.state = 82
+            self.state = 92
             self.qualifiedName()
-            self.state = 83
+            self.state = 93
             self.match(CloudArchitectParser.ARROW)
-            self.state = 84
+            self.state = 94
             self.qualifiedName()
-            self.state = 85
+            self.state = 95
             self.match(CloudArchitectParser.LBRACE)
-            self.state = 89
+            self.state = 99
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==12:
-                self.state = 86
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 40956) != 0):
+                self.state = 96
                 self.property_()
-                self.state = 91
+                self.state = 101
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 92
+            self.state = 102
             self.match(CloudArchitectParser.RBRACE)
         except RecognitionException as re:
             localctx.exception = re
@@ -708,23 +747,23 @@ class CloudArchitectParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 94
+            self.state = 104
             self.match(CloudArchitectParser.POLICY)
-            self.state = 95
+            self.state = 105
             self.match(CloudArchitectParser.ID)
-            self.state = 96
+            self.state = 106
             self.match(CloudArchitectParser.LBRACE)
-            self.state = 100
+            self.state = 110
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==10:
-                self.state = 97
+            while _la==7 or _la==8:
+                self.state = 107
                 self.policyRule()
-                self.state = 102
+                self.state = 112
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 103
+            self.state = 113
             self.match(CloudArchitectParser.RBRACE)
         except RecognitionException as re:
             localctx.exception = re
@@ -742,11 +781,29 @@ class CloudArchitectParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def DENY(self):
-            return self.getToken(CloudArchitectParser.DENY, 0)
+        def severity(self):
+            return self.getTypedRuleContext(CloudArchitectParser.SeverityContext,0)
 
-        def expr(self):
-            return self.getTypedRuleContext(CloudArchitectParser.ExprContext,0)
+
+        def STRING(self):
+            return self.getToken(CloudArchitectParser.STRING, 0)
+
+        def LBRACE(self):
+            return self.getToken(CloudArchitectParser.LBRACE, 0)
+
+        def checkClause(self):
+            return self.getTypedRuleContext(CloudArchitectParser.CheckClauseContext,0)
+
+
+        def RBRACE(self):
+            return self.getToken(CloudArchitectParser.RBRACE, 0)
+
+        def selectorClause(self):
+            return self.getTypedRuleContext(CloudArchitectParser.SelectorClauseContext,0)
+
+
+        def messageClause(self):
+            return self.getTypedRuleContext(CloudArchitectParser.MessageClauseContext,0)
 
 
         def getRuleIndex(self):
@@ -773,12 +830,267 @@ class CloudArchitectParser ( Parser ):
 
         localctx = CloudArchitectParser.PolicyRuleContext(self, self._ctx, self.state)
         self.enterRule(localctx, 14, self.RULE_policyRule)
+        self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 105
-            self.match(CloudArchitectParser.DENY)
-            self.state = 106
+            self.state = 115
+            self.severity()
+            self.state = 116
+            self.match(CloudArchitectParser.STRING)
+            self.state = 117
+            self.match(CloudArchitectParser.LBRACE)
+            self.state = 119
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==9:
+                self.state = 118
+                self.selectorClause()
+
+
+            self.state = 121
+            self.checkClause()
+            self.state = 123
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==12:
+                self.state = 122
+                self.messageClause()
+
+
+            self.state = 125
+            self.match(CloudArchitectParser.RBRACE)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class SelectorClauseContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def FROM(self):
+            return self.getToken(CloudArchitectParser.FROM, 0)
+
+        def validId(self):
+            return self.getTypedRuleContext(CloudArchitectParser.ValidIdContext,0)
+
+
+        def WHERE(self):
+            return self.getToken(CloudArchitectParser.WHERE, 0)
+
+        def expr(self):
+            return self.getTypedRuleContext(CloudArchitectParser.ExprContext,0)
+
+
+        def getRuleIndex(self):
+            return CloudArchitectParser.RULE_selectorClause
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterSelectorClause" ):
+                listener.enterSelectorClause(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitSelectorClause" ):
+                listener.exitSelectorClause(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitSelectorClause" ):
+                return visitor.visitSelectorClause(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def selectorClause(self):
+
+        localctx = CloudArchitectParser.SelectorClauseContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 16, self.RULE_selectorClause)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 127
+            self.match(CloudArchitectParser.FROM)
+            self.state = 128
+            self.validId()
+            self.state = 131
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if _la==10:
+                self.state = 129
+                self.match(CloudArchitectParser.WHERE)
+                self.state = 130
+                self.expr(0)
+
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class CheckClauseContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def ENSURE(self):
+            return self.getToken(CloudArchitectParser.ENSURE, 0)
+
+        def expr(self):
+            return self.getTypedRuleContext(CloudArchitectParser.ExprContext,0)
+
+
+        def getRuleIndex(self):
+            return CloudArchitectParser.RULE_checkClause
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterCheckClause" ):
+                listener.enterCheckClause(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitCheckClause" ):
+                listener.exitCheckClause(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitCheckClause" ):
+                return visitor.visitCheckClause(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def checkClause(self):
+
+        localctx = CloudArchitectParser.CheckClauseContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 18, self.RULE_checkClause)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 133
+            self.match(CloudArchitectParser.ENSURE)
+            self.state = 134
             self.expr(0)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class MessageClauseContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def MESSAGE(self):
+            return self.getToken(CloudArchitectParser.MESSAGE, 0)
+
+        def STRING(self):
+            return self.getToken(CloudArchitectParser.STRING, 0)
+
+        def getRuleIndex(self):
+            return CloudArchitectParser.RULE_messageClause
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterMessageClause" ):
+                listener.enterMessageClause(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitMessageClause" ):
+                listener.exitMessageClause(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitMessageClause" ):
+                return visitor.visitMessageClause(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def messageClause(self):
+
+        localctx = CloudArchitectParser.MessageClauseContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 20, self.RULE_messageClause)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 136
+            self.match(CloudArchitectParser.MESSAGE)
+            self.state = 137
+            self.match(CloudArchitectParser.STRING)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class SeverityContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def DENY(self):
+            return self.getToken(CloudArchitectParser.DENY, 0)
+
+        def WARN(self):
+            return self.getToken(CloudArchitectParser.WARN, 0)
+
+        def getRuleIndex(self):
+            return CloudArchitectParser.RULE_severity
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterSeverity" ):
+                listener.enterSeverity(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitSeverity" ):
+                listener.exitSeverity(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitSeverity" ):
+                return visitor.visitSeverity(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def severity(self):
+
+        localctx = CloudArchitectParser.SeverityContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 22, self.RULE_severity)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 139
+            _la = self._input.LA(1)
+            if not(_la==7 or _la==8):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -837,27 +1149,27 @@ class CloudArchitectParser ( Parser ):
     def targetDecl(self):
 
         localctx = CloudArchitectParser.TargetDeclContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_targetDecl)
+        self.enterRule(localctx, 24, self.RULE_targetDecl)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 108
+            self.state = 141
             self.match(CloudArchitectParser.TARGET)
-            self.state = 109
+            self.state = 142
             self.match(CloudArchitectParser.ID)
-            self.state = 110
+            self.state = 143
             self.match(CloudArchitectParser.LBRACE)
-            self.state = 114
+            self.state = 147
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==12:
-                self.state = 111
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 40956) != 0):
+                self.state = 144
                 self.property_()
-                self.state = 116
+                self.state = 149
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 117
+            self.state = 150
             self.match(CloudArchitectParser.RBRACE)
         except RecognitionException as re:
             localctx.exception = re
@@ -875,8 +1187,9 @@ class CloudArchitectParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def ID(self):
-            return self.getToken(CloudArchitectParser.ID, 0)
+        def validId(self):
+            return self.getTypedRuleContext(CloudArchitectParser.ValidIdContext,0)
+
 
         def EQUALS(self):
             return self.getToken(CloudArchitectParser.EQUALS, 0)
@@ -908,14 +1221,14 @@ class CloudArchitectParser ( Parser ):
     def property_(self):
 
         localctx = CloudArchitectParser.PropertyContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_property)
+        self.enterRule(localctx, 26, self.RULE_property)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 119
-            self.match(CloudArchitectParser.ID)
-            self.state = 120
+            self.state = 152
+            self.validId()
+            self.state = 153
             self.match(CloudArchitectParser.EQUALS)
-            self.state = 121
+            self.state = 154
             self.expr(0)
         except RecognitionException as re:
             localctx.exception = re
@@ -949,12 +1262,18 @@ class CloudArchitectParser ( Parser ):
             return self.getTypedRuleContext(CloudArchitectParser.QualifiedNameContext,0)
 
 
+        def LPAREN(self):
+            return self.getToken(CloudArchitectParser.LPAREN, 0)
+
         def expr(self, i:int=None):
             if i is None:
                 return self.getTypedRuleContexts(CloudArchitectParser.ExprContext)
             else:
                 return self.getTypedRuleContext(CloudArchitectParser.ExprContext,i)
 
+
+        def RPAREN(self):
+            return self.getToken(CloudArchitectParser.RPAREN, 0)
 
         def binaryOp(self):
             return self.getTypedRuleContext(CloudArchitectParser.BinaryOpContext,0)
@@ -984,36 +1303,44 @@ class CloudArchitectParser ( Parser ):
         _parentState = self.state
         localctx = CloudArchitectParser.ExprContext(self, self._ctx, _parentState)
         _prevctx = localctx
-        _startState = 20
-        self.enterRecursionRule(localctx, 20, self.RULE_expr, _p)
+        _startState = 28
+        self.enterRecursionRule(localctx, 28, self.RULE_expr, _p)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 128
+            self.state = 165
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [11, 13, 14]:
-                self.state = 124
+            if token in [14, 16, 17]:
+                self.state = 157
                 self.literal()
                 pass
-            elif token in [17]:
-                self.state = 125
+            elif token in [20]:
+                self.state = 158
                 self.list_()
                 pass
-            elif token in [15]:
-                self.state = 126
+            elif token in [18]:
+                self.state = 159
                 self.object_()
                 pass
-            elif token in [12]:
-                self.state = 127
+            elif token in [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15]:
+                self.state = 160
                 self.qualifiedName()
+                pass
+            elif token in [22]:
+                self.state = 161
+                self.match(CloudArchitectParser.LPAREN)
+                self.state = 162
+                self.expr(0)
+                self.state = 163
+                self.match(CloudArchitectParser.RPAREN)
                 pass
             else:
                 raise NoViableAltException(self)
 
             self._ctx.stop = self._input.LT(-1)
-            self.state = 136
+            self.state = 173
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,10,self._ctx)
+            _alt = self._interp.adaptivePredict(self._input,13,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
                     if self._parseListeners is not None:
@@ -1021,17 +1348,17 @@ class CloudArchitectParser ( Parser ):
                     _prevctx = localctx
                     localctx = CloudArchitectParser.ExprContext(self, _parentctx, _parentState)
                     self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                    self.state = 130
-                    if not self.precpred(self._ctx, 1):
+                    self.state = 167
+                    if not self.precpred(self._ctx, 2):
                         from antlr4.error.Errors import FailedPredicateException
-                        raise FailedPredicateException(self, "self.precpred(self._ctx, 1)")
-                    self.state = 131
+                        raise FailedPredicateException(self, "self.precpred(self._ctx, 2)")
+                    self.state = 168
                     self.binaryOp()
-                    self.state = 132
-                    self.expr(2) 
-                self.state = 138
+                    self.state = 169
+                    self.expr(3) 
+                self.state = 175
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,10,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,13,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -1081,13 +1408,13 @@ class CloudArchitectParser ( Parser ):
     def literal(self):
 
         localctx = CloudArchitectParser.LiteralContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_literal)
+        self.enterRule(localctx, 30, self.RULE_literal)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 139
+            self.state = 176
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 26624) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 212992) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -1150,33 +1477,33 @@ class CloudArchitectParser ( Parser ):
     def list_(self):
 
         localctx = CloudArchitectParser.ListContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 24, self.RULE_list)
+        self.enterRule(localctx, 32, self.RULE_list)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 141
+            self.state = 178
             self.match(CloudArchitectParser.LBRACKET)
-            self.state = 150
+            self.state = 187
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 194560) != 0):
-                self.state = 142
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 5758972) != 0):
+                self.state = 179
                 self.expr(0)
-                self.state = 147
+                self.state = 184
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while _la==22:
-                    self.state = 143
+                while _la==27:
+                    self.state = 180
                     self.match(CloudArchitectParser.COMMA)
-                    self.state = 144
+                    self.state = 181
                     self.expr(0)
-                    self.state = 149
+                    self.state = 186
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
 
 
-            self.state = 152
+            self.state = 189
             self.match(CloudArchitectParser.RBRACKET)
         except RecognitionException as re:
             localctx.exception = re
@@ -1230,23 +1557,23 @@ class CloudArchitectParser ( Parser ):
     def object_(self):
 
         localctx = CloudArchitectParser.ObjectContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 26, self.RULE_object)
+        self.enterRule(localctx, 34, self.RULE_object)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 154
+            self.state = 191
             self.match(CloudArchitectParser.LBRACE)
-            self.state = 158
+            self.state = 195
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==12:
-                self.state = 155
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 40956) != 0):
+                self.state = 192
                 self.property_()
-                self.state = 160
+                self.state = 197
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 161
+            self.state = 198
             self.match(CloudArchitectParser.RBRACE)
         except RecognitionException as re:
             localctx.exception = re
@@ -1264,11 +1591,12 @@ class CloudArchitectParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def ID(self, i:int=None):
+        def validId(self, i:int=None):
             if i is None:
-                return self.getTokens(CloudArchitectParser.ID)
+                return self.getTypedRuleContexts(CloudArchitectParser.ValidIdContext)
             else:
-                return self.getToken(CloudArchitectParser.ID, i)
+                return self.getTypedRuleContext(CloudArchitectParser.ValidIdContext,i)
+
 
         def DOT(self, i:int=None):
             if i is None:
@@ -1299,24 +1627,110 @@ class CloudArchitectParser ( Parser ):
     def qualifiedName(self):
 
         localctx = CloudArchitectParser.QualifiedNameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 28, self.RULE_qualifiedName)
+        self.enterRule(localctx, 36, self.RULE_qualifiedName)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 163
-            self.match(CloudArchitectParser.ID)
-            self.state = 168
+            self.state = 200
+            self.validId()
+            self.state = 205
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,14,self._ctx)
+            _alt = self._interp.adaptivePredict(self._input,17,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
-                    self.state = 164
+                    self.state = 201
                     self.match(CloudArchitectParser.DOT)
-                    self.state = 165
-                    self.match(CloudArchitectParser.ID) 
-                self.state = 170
+                    self.state = 202
+                    self.validId() 
+                self.state = 207
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,14,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,17,self._ctx)
 
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class ValidIdContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def ID(self):
+            return self.getToken(CloudArchitectParser.ID, 0)
+
+        def NODE(self):
+            return self.getToken(CloudArchitectParser.NODE, 0)
+
+        def NETWORK(self):
+            return self.getToken(CloudArchitectParser.NETWORK, 0)
+
+        def LINK(self):
+            return self.getToken(CloudArchitectParser.LINK, 0)
+
+        def POLICY(self):
+            return self.getToken(CloudArchitectParser.POLICY, 0)
+
+        def TARGET(self):
+            return self.getToken(CloudArchitectParser.TARGET, 0)
+
+        def DENY(self):
+            return self.getToken(CloudArchitectParser.DENY, 0)
+
+        def WARN(self):
+            return self.getToken(CloudArchitectParser.WARN, 0)
+
+        def FROM(self):
+            return self.getToken(CloudArchitectParser.FROM, 0)
+
+        def WHERE(self):
+            return self.getToken(CloudArchitectParser.WHERE, 0)
+
+        def ENSURE(self):
+            return self.getToken(CloudArchitectParser.ENSURE, 0)
+
+        def MESSAGE(self):
+            return self.getToken(CloudArchitectParser.MESSAGE, 0)
+
+        def getRuleIndex(self):
+            return CloudArchitectParser.RULE_validId
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterValidId" ):
+                listener.enterValidId(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitValidId" ):
+                listener.exitValidId(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitValidId" ):
+                return visitor.visitValidId(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def validId(self):
+
+        localctx = CloudArchitectParser.ValidIdContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 38, self.RULE_validId)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 208
+            _la = self._input.LA(1)
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 40956) != 0)):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -1333,6 +1747,32 @@ class CloudArchitectParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def EQ(self):
+            return self.getToken(CloudArchitectParser.EQ, 0)
+
+        def NEQ(self):
+            return self.getToken(CloudArchitectParser.NEQ, 0)
+
+        def GT(self):
+            return self.getToken(CloudArchitectParser.GT, 0)
+
+        def LT(self):
+            return self.getToken(CloudArchitectParser.LT, 0)
+
+        def GTE(self):
+            return self.getToken(CloudArchitectParser.GTE, 0)
+
+        def LTE(self):
+            return self.getToken(CloudArchitectParser.LTE, 0)
+
+        def AND(self):
+            return self.getToken(CloudArchitectParser.AND, 0)
+
+        def OR(self):
+            return self.getToken(CloudArchitectParser.OR, 0)
+
+        def IN(self):
+            return self.getToken(CloudArchitectParser.IN, 0)
 
         def getRuleIndex(self):
             return CloudArchitectParser.RULE_binaryOp
@@ -1357,13 +1797,13 @@ class CloudArchitectParser ( Parser ):
     def binaryOp(self):
 
         localctx = CloudArchitectParser.BinaryOpContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 30, self.RULE_binaryOp)
+        self.enterRule(localctx, 40, self.RULE_binaryOp)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 171
+            self.state = 210
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 14) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 68451049472) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -1381,7 +1821,7 @@ class CloudArchitectParser ( Parser ):
     def sempred(self, localctx:RuleContext, ruleIndex:int, predIndex:int):
         if self._predicates == None:
             self._predicates = dict()
-        self._predicates[10] = self.expr_sempred
+        self._predicates[14] = self.expr_sempred
         pred = self._predicates.get(ruleIndex, None)
         if pred is None:
             raise Exception("No predicate with index:" + str(ruleIndex))
@@ -1390,7 +1830,7 @@ class CloudArchitectParser ( Parser ):
 
     def expr_sempred(self, localctx:ExprContext, predIndex:int):
             if predIndex == 0:
-                return self.precpred(self._ctx, 1)
+                return self.precpred(self._ctx, 2)
          
 
 

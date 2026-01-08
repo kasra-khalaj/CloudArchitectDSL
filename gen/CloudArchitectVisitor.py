@@ -49,6 +49,26 @@ class CloudArchitectVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by CloudArchitectParser#selectorClause.
+    def visitSelectorClause(self, ctx:CloudArchitectParser.SelectorClauseContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by CloudArchitectParser#checkClause.
+    def visitCheckClause(self, ctx:CloudArchitectParser.CheckClauseContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by CloudArchitectParser#messageClause.
+    def visitMessageClause(self, ctx:CloudArchitectParser.MessageClauseContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by CloudArchitectParser#severity.
+    def visitSeverity(self, ctx:CloudArchitectParser.SeverityContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by CloudArchitectParser#targetDecl.
     def visitTargetDecl(self, ctx:CloudArchitectParser.TargetDeclContext):
         return self.visitChildren(ctx)
@@ -81,6 +101,11 @@ class CloudArchitectVisitor(ParseTreeVisitor):
 
     # Visit a parse tree produced by CloudArchitectParser#qualifiedName.
     def visitQualifiedName(self, ctx:CloudArchitectParser.QualifiedNameContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by CloudArchitectParser#validId.
+    def visitValidId(self, ctx:CloudArchitectParser.ValidIdContext):
         return self.visitChildren(ctx)
 
 

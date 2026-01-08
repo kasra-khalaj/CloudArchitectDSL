@@ -2,13 +2,13 @@ grammar CloudArchitect;
 
 // --- Parser Rules (The Structure) ---
 
-// Entry point: A file can contain multiple topologies
+// Entry point
 program: topology* EOF;
 
 // The main container
 topology: 'topology' ID '{' statement* '}';
 
-// Statements allowed inside a topology or network
+// Statements allowed inside scopes
 statement
     : networkDecl
     | nodeDecl
@@ -18,25 +18,36 @@ statement
     ;
 
 // Recursive Network Definition
-// Note: 'statement*' allows networks inside networks (nesting)
 networkDecl: 'network' ID '{' (property | statement)* '}';
 
-// Node Definition (Leaf component)
+// Node Definition
 nodeDecl: 'node' ID '{' property* '}';
 
 // Links: Source -> Destination
-// Uses qualifiedName to allow linking across scopes (e.g., public.lb -> private.api)
 linkDecl: 'link' qualifiedName '->' qualifiedName '{' property* '}';
 
-// Policy Definition
+// --- IMPROVED POLICY SECTION ---
 policyDecl: 'policy' ID '{' policyRule* '}';
-policyRule: 'deny' expr;
 
-// Target Definition (Compiler Output Configuration)
+policyRule
+    : severity STRING '{'           // e.g. deny "Rule Name" {
+          selectorClause?           // e.g. from node where ...
+          checkClause               // e.g. ensure ...
+          messageClause?            // e.g. message "..."
+      '}'
+    ;
+
+selectorClause: 'from' validId ('where' expr)?; // Scopes the check
+checkClause: 'ensure' expr;                     // The logic test
+messageClause: 'message' STRING;                // Custom error text
+
+severity: 'deny' | 'warn';
+// ------------------------------
+
+// Target Definition
 targetDecl: 'target' ID '{' property* '}';
 
 // Properties: key = value
-// Using validId allows properties like 'type = ...' where 'type' might become a keyword later
 property: validId '=' expr;
 
 // Expressions for values
@@ -45,7 +56,8 @@ expr
     | list
     | object
     | qualifiedName
-    | expr binaryOp expr // For policy logic (==, in)
+    | expr binaryOp expr
+    | '(' expr ')'         // Added parentheses support for logic grouping
     ;
 
 literal
@@ -57,23 +69,17 @@ literal
 list: '[' (expr (',' expr)*)? ']';
 object: '{' (property)* '}';
 
-// Qualified Name: Handles "dot notation" (e.g., network.node.attr)
-// Uses validId to allow keywords as parts of names (e.g., node.type)
+// Qualified Name: Handles "dot notation"
 qualifiedName: validId ('.' validId)*;
 
-// Helper rule to resolve keyword collisions
-// This tells the parser: "It's okay if a name looks like a keyword"
+// Helper to allow keywords as identifiers (e.g., node.type)
 validId
     : ID
-    | NODE
-    | NETWORK
-    | LINK
-    | POLICY
-    | TARGET
-    | DENY
+    | NODE | NETWORK | LINK | POLICY | TARGET
+    | DENY | WARN | FROM | WHERE | ENSURE | MESSAGE
     ;
 
-binaryOp: '==' | '!=' | IN;
+binaryOp: '==' | '!=' | '>' | '<' | '>=' | '<=' | '&&' | '||' | IN;
 
 // --- Lexer Rules (The Tokens) ---
 
@@ -84,13 +90,20 @@ NODE: 'node';
 LINK: 'link';
 POLICY: 'policy';
 TARGET: 'target';
+
+// Policy Keywords
 DENY: 'deny';
+WARN: 'warn';
+FROM: 'from';
+WHERE: 'where';
+ENSURE: 'ensure';
+MESSAGE: 'message';
 IN: 'in';
 
 // Data Types
 BOOL: 'true' | 'false';
 
-// Identifiers (must start with a letter)
+// Identifiers
 ID: [a-zA-Z_] [a-zA-Z0-9_]*;
 
 // Literals
@@ -98,17 +111,20 @@ INT: [0-9]+;
 STRING: '"' .*? '"';
 
 // Symbols
-LBRACE: '{';
-RBRACE: '}';
-LBRACKET: '[';
-RBRACKET: ']';
+LBRACE: '{'; RBRACE: '}';
+LBRACKET: '['; RBRACKET: ']';
+LPAREN: '('; RPAREN: ')';
 EQUALS: '=';
 ARROW: '->';
 DOT: '.';
 COMMA: ',';
-COLON: ':';
 
-// Skip whitespace and comments
+// Operators
+EQ: '=='; NEQ: '!=';
+GT: '>'; LT: '<'; GTE: '>='; LTE: '<=';
+AND: '&&'; OR: '||';
+
+// Skip whitespace/comments
 WS: [ \t\r\n]+ -> skip;
 COMMENT: '//' ~[\r\n]* -> skip;
 BLOCK_COMMENT: '/*' .*? '*/' -> skip;

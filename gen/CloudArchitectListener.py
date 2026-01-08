@@ -80,6 +80,42 @@ class CloudArchitectListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by CloudArchitectParser#selectorClause.
+    def enterSelectorClause(self, ctx:CloudArchitectParser.SelectorClauseContext):
+        pass
+
+    # Exit a parse tree produced by CloudArchitectParser#selectorClause.
+    def exitSelectorClause(self, ctx:CloudArchitectParser.SelectorClauseContext):
+        pass
+
+
+    # Enter a parse tree produced by CloudArchitectParser#checkClause.
+    def enterCheckClause(self, ctx:CloudArchitectParser.CheckClauseContext):
+        pass
+
+    # Exit a parse tree produced by CloudArchitectParser#checkClause.
+    def exitCheckClause(self, ctx:CloudArchitectParser.CheckClauseContext):
+        pass
+
+
+    # Enter a parse tree produced by CloudArchitectParser#messageClause.
+    def enterMessageClause(self, ctx:CloudArchitectParser.MessageClauseContext):
+        pass
+
+    # Exit a parse tree produced by CloudArchitectParser#messageClause.
+    def exitMessageClause(self, ctx:CloudArchitectParser.MessageClauseContext):
+        pass
+
+
+    # Enter a parse tree produced by CloudArchitectParser#severity.
+    def enterSeverity(self, ctx:CloudArchitectParser.SeverityContext):
+        pass
+
+    # Exit a parse tree produced by CloudArchitectParser#severity.
+    def exitSeverity(self, ctx:CloudArchitectParser.SeverityContext):
+        pass
+
+
     # Enter a parse tree produced by CloudArchitectParser#targetDecl.
     def enterTargetDecl(self, ctx:CloudArchitectParser.TargetDeclContext):
         pass
@@ -140,6 +176,15 @@ class CloudArchitectListener(ParseTreeListener):
 
     # Exit a parse tree produced by CloudArchitectParser#qualifiedName.
     def exitQualifiedName(self, ctx:CloudArchitectParser.QualifiedNameContext):
+        pass
+
+
+    # Enter a parse tree produced by CloudArchitectParser#validId.
+    def enterValidId(self, ctx:CloudArchitectParser.ValidIdContext):
+        pass
+
+    # Exit a parse tree produced by CloudArchitectParser#validId.
+    def exitValidId(self, ctx:CloudArchitectParser.ValidIdContext):
         pass
 
 
